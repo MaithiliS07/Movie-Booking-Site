@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #131514;
+    
+}
+
+.navbar{
+    width: 100%;
+    background: #1E1F23;
+    height: auto;
+    padding-top: 50px;
+}
+
