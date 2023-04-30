@@ -5,13 +5,19 @@
 
 body{
     background: #131514;
-    
+    font-family: 'Noto Sans', sans-serif;
 }
 
-.navbar{
-    width: 100%;
+header{
     background: #1E1F23;
+    width: 100%;
     height: auto;
-    padding-top: 50px;
+    padding: 5px 20px 5px 40px;
 }
 
+header a{
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ced1d8;
+}
