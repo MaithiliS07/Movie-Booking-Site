@@ -104,13 +104,14 @@ header a{
     margin-left: 50px;
 }
 
-.sidebar a:active{
+.sidebar a:hover{
     text-decoration: none;
+    color: #fff;
 }
 
 .sidebar div:hover{
     background: #5157f4;
-    min-width: 50px;
+    min-width: 40px;
     border-radius: 10px;
     border: none;
     color: #fff;
