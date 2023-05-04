@@ -85,8 +85,8 @@ header a{
     position: fixed;
 }
 
-.sidebar_title1 h3{
-    margin: 30px 0px 25px 40px;
+.sidebar h3{
+    margin: 50px 0px 25px 40px;
     font-size: 15px;
     color: #ced1d8;
     font-weight: 200;
@@ -99,14 +99,18 @@ header a{
 .sidebar a{
     text-decoration: none;
     color: #ced1d8;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     margin-left: 50px;
 }
 
-.sidebar a:hover{
+.sidebar a:active{
+    text-decoration: none;
+}
+
+.sidebar div:hover{
     background: #5157f4;
-    padding: 8px 20px 8px 10px;
+    min-width: 50px;
     border-radius: 10px;
     border: none;
     color: #fff;
