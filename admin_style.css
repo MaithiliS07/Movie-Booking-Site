@@ -78,12 +78,20 @@ header a{
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 150px;
+    max-width: 200px;
     height: 100%;
     background: #292a2e;
-    padding-top: 100px;
     left: 0;
     position: fixed;
+}
+
+.sidebar_title1{
+    margin-top: 30px;
+}
+
+.sidebar_title1 h3{
+    font-size: 10px;
+    color: #ced1d8;
 }
 
 .sidebar div{
@@ -94,12 +102,7 @@ header a{
     text-decoration: none;
     color: #ced1d8;
     font-size: 18px;
-    font-weight: 500;
-    padding-left: 20px;
+    font-weight: 300;
+    padding-left: 60px;
 }
 
-.sidebar a:hover{
-    background: #5157F4;
-    border-radius: 50px;
-    color: #fff;
-}
