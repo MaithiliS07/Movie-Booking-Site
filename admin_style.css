@@ -87,13 +87,14 @@ header a{
 
 .sidebar h3{
     margin: 50px 0px 25px 40px;
-    font-size: 15px;
+    font-size: 13px;
     color: #ced1d8;
     font-weight: 200;
 }
 
 .sidebar div{
-    margin-bottom: 20px;
+    margin: 0px 30px 20px 40px;
+    padding: 3px 20px 3px 20px;
 }
 
 .sidebar a{
@@ -101,7 +102,6 @@ header a{
     color: #ced1d8;
     font-size: 15px;
     font-weight: 400;
-    margin-left: 50px;
 }
 
 .sidebar a:hover{
@@ -111,7 +111,6 @@ header a{
 
 .sidebar div:hover{
     background: #5157f4;
-    min-width: 40px;
     border-radius: 10px;
     border: none;
     color: #fff;
