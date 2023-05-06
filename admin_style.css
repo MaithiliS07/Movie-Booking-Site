@@ -8,6 +8,7 @@ body{
     font-family: 'Noto Sans', sans-serif;
 }
 
+/*-------------------Header Section--------------------*/
 header{
     background: #2a2b2e;
     width: 100%;
@@ -22,7 +23,7 @@ header div{
 }
 
 .logo-section{
-    margin: 6px 0px 6px 10px;
+    margin: 6px 0px 6px -2px;
 }
 
 header a{
@@ -31,6 +32,12 @@ header a{
     text-decoration: none;
     color: #ced1d8;
     margin-top: 20px;
+    margin-left: 12px;
+}
+
+header .hamburger{
+    margin-top: -10px;
+    cursor: pointer;
 }
 
 .search-bar input{
@@ -75,6 +82,7 @@ header a{
     margin-left: 5px;
 }
 
+/*------------------------Sidebar Section---------------------*/
 .sidebar{
     display: flex;
     flex-direction: column;
@@ -84,7 +92,7 @@ header a{
     background: #2a2b2e;
     left: 0;
     position: fixed;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .sidebar div{
@@ -118,3 +126,4 @@ header a{
     color: #fff;
     cursor: pointer;
 }
+
