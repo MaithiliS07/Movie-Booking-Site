@@ -95,6 +95,13 @@ header a{
 .sidebar div{
     margin: 0px 30px 20px 40px;
     padding: 3px 20px 3px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar img{
+    margin-right: 5px;
+    margin-top: 2px;
 }
 
 .sidebar a{
