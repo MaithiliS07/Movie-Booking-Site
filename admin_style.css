@@ -9,7 +9,7 @@ body{
 }
 
 header{
-    background: #292a2e;
+    background: #2a2b2e;
     width: 100%;
     height: auto;
     padding: 8px 20px 7px 40px;
@@ -37,7 +37,7 @@ header a{
     width: 100%;
     max-width: 80%;
     background: #131514;
-    border: #131514;
+    border: none;
     margin: 6px auto 6px auto;
     padding: 6px 5px 6px 15px;
     border-radius: 40px;
@@ -64,7 +64,7 @@ header a{
     font-size: 20px;
     font-weight: 500;
     justify-content: flex-end;
-    padding-right: 25px;
+    padding-right: 40px;
     width: 100%;
 }
 
@@ -72,6 +72,7 @@ header a{
     border: none;
     background: none;
     margin-top: -15px;
+    margin-left: 5px;
 }
 
 .sidebar{
@@ -80,20 +81,14 @@ header a{
     width: 100%;
     max-width: 200px;
     height: 100%;
-    background: #292a2e;
+    background: #2a2b2e;
     left: 0;
     position: fixed;
-}
-
-.sidebar h3{
-    margin: 50px 0px 25px 40px;
-    font-size: 13px;
-    color: #ced1d8;
-    font-weight: 200;
+    padding-top: 100px;
 }
 
 .sidebar div{
-    margin: 0px 30px 20px 40px;
+    margin: 0px 30px 30px 30px;
     padding: 3px 20px 3px 20px;
     display: flex;
     flex-direction: row;
@@ -111,14 +106,15 @@ header a{
     font-weight: 400;
 }
 
-.sidebar a:hover{
-    text-decoration: none;
-    color: #fff;
-}
-
 .sidebar div:hover{
     background: #5157f4;
     border-radius: 10px;
     border: none;
     color: #fff;
+}
+
+.logo:hover, .sidebar a:hover{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
 }
