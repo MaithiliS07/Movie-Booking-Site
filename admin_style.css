@@ -1,11 +1,11 @@
 *{
     margin: 0;
     scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body{
     background: #131514;
-    font-family: 'Poppins', sans-serif;
 }
 
 /*-------------------Header Section--------------------*/
@@ -96,6 +96,21 @@ header a{
     cursor: pointer;
 }
 
-.sidebar ul{
+.sidebar ul li{
     list-style: none;
+    margin-bottom: 20px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    color: #ced1d8;
+    font-size: 18px;
+}
+
+.sidebar ul li a:hover{
+    background: #5157F4;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    
 }
