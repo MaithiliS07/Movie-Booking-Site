@@ -35,11 +35,6 @@ header a{
     margin-left: 12px;
 }
 
-header .hamburger{
-    margin-top: -10px;
-    cursor: pointer;
-}
-
 .search-bar input{
     width: 100%;
     max-width: 80%;
@@ -95,33 +90,33 @@ header .hamburger{
     padding-top: 80px;
 }
 
-.sidebar div{
+/* .sidebar div{
     margin: 0px 30px 30px 30px;
     padding: 3px 20px 3px 20px;
     display: flex;
     flex-direction: row;
-}
+} */
 
-.sidebar img{
+/* .sidebar img{
     margin-right: 5px;
     margin-top: 2px;
-}
+} */
 
-.sidebar a{
+/* .sidebar a{
     text-decoration: none;
     color: #ced1d8;
     font-size: 15px;
     font-weight: 400;
-}
+} */
 
-.sidebar div:hover{
+/* .sidebar div:hover{
     background: #5157f4;
     border-radius: 10px;
     border: none;
     color: #fff;
-}
+} */
 
-.logo:hover, .sidebar a:hover{
+.logo:hover{
     text-decoration: none;
     color: #fff;
     cursor: pointer;
