@@ -5,7 +5,7 @@
 
 body{
     background: #131514;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /*-------------------Header Section--------------------*/
@@ -90,35 +90,12 @@ header a{
     padding-top: 80px;
 }
 
-/* .sidebar div{
-    margin: 0px 30px 30px 30px;
-    padding: 3px 20px 3px 20px;
-    display: flex;
-    flex-direction: row;
-} */
-
-/* .sidebar img{
-    margin-right: 5px;
-    margin-top: 2px;
-} */
-
-/* .sidebar a{
-    text-decoration: none;
-    color: #ced1d8;
-    font-size: 15px;
-    font-weight: 400;
-} */
-
-/* .sidebar div:hover{
-    background: #5157f4;
-    border-radius: 10px;
-    border: none;
-    color: #fff;
-} */
-
 .logo:hover{
     text-decoration: none;
     color: #fff;
     cursor: pointer;
 }
 
+.sidebar ul{
+    list-style: none;
+}
