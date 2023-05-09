@@ -22,8 +22,14 @@ header div{
     width: 100%;
 }
 
-.logo-section{
-    margin: 6px 0px 6px -2px;
+.logo-section i{
+    font-size: 25px;
+    color: #ced1d8;
+    margin-top: 10px;
+}
+
+.logo-section a{
+    margin-top: -10px;
 }
 
 header a{
