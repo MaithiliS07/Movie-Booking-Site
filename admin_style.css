@@ -22,23 +22,19 @@ header div{
     width: 100%;
 }
 
-.logo-section i{
-    font-size: 25px;
-    color: #ced1d8;
-    margin-top: 10px;
-}
-
-.logo-section a{
-    margin-top: -10px;
-}
-
 header a{
     font-size: 23px;
     font-weight: 600;
     text-decoration: none;
     color: #ced1d8;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-left: 12px;
+}
+
+.logo:hover{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
 }
 
 .search-bar input{
@@ -93,18 +89,29 @@ header a{
     background: #2a2b2e;
     left: 0;
     position: fixed;
-    padding-top: 80px;
+    padding-top: 10px;
 }
 
-.logo:hover{
+.sidebar-header{
+    margin-left: 33px;
+    color: #ced1d8;
+}
+
+.sidebar-header a{
     text-decoration: none;
-    color: #fff;
-    cursor: pointer;
+    color: #ced1d8;
+    font-size: 15px;
+}
+
+.sidebar-header i{
+    float: right;
+    font-size: 25px;
 }
 
 .sidebar ul li{
     list-style: none;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .sidebar ul li a{
