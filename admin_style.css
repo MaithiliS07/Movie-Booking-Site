@@ -15,15 +15,38 @@ header{
     width: 100vw;
     height: 70px;
     justify-content: center;
-    background-color: #1E1F23;
-    gap: 450px;
+    background-color: #222325;
+}
+
+header div{
+    width: 33%;
 }
 
 header .logo{
-    margin: auto 0 auto -100px;
+    margin: auto 0 auto 30px;
 }
 
 header .search{
-    margin: auto 0 auto 0;
+    margin: auto 0 auto 10px;
 }
 
+.search input{
+    width: 75%;
+    font-size: 15px;
+    padding: 4px 5px 4px 35px;
+    border-radius: 5px;
+    border: none;
+    background: #070808;
+    color: rgb(215, 213, 213);
+}
+
+.search input:focus{
+    outline: none;
+}
+
+.search .bx-search{
+    position: absolute;
+    margin: 7px 2px 0 8px;
+    font-size: 18px;
+    color: rgba(183, 182, 182, 0.874);
+}
