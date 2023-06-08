@@ -7,3 +7,23 @@
 body{
     background: #131514;
 }
+
+/*------------------------Header Section----------------------*/
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 70px;
+    justify-content: center;
+    background-color: #1E1F23;
+    gap: 450px;
+}
+
+header .logo{
+    margin: auto 0 auto -100px;
+}
+
+header .search{
+    margin: auto 0 auto 0;
+}
+
