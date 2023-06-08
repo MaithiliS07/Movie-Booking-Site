@@ -12,22 +12,29 @@ body{
 header{
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
+    max-width: 100vw;
     height: 70px;
     justify-content: center;
     background-color: #222325;
 }
 
 header div{
-    width: 33%;
+    width: 33% !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+header .toggle-menu{
+    display: none;
 }
 
 header .logo{
-    margin: auto 0 auto 30px;
+    margin-left: 30px;
 }
 
 header .search{
-    margin: auto 0 auto 10px;
+    margin-left: 10px;
 }
 
 .search input{
@@ -38,6 +45,10 @@ header .search{
     border: none;
     background: #070808;
     color: rgb(215, 213, 213);
+	box-shadow:
+		0px 1px 1px 0px hsla(0,0%,0%,0.14), 
+		0px 2px 1px -1px hsla(0,0%,0%,0.12), 
+		0px 1px 3px 0px hsla(0,0%,0%,0.2);
 }
 
 .search input:focus{
@@ -50,3 +61,19 @@ header .search{
     font-size: 18px;
     color: rgba(183, 182, 182, 0.874);
 }
+
+.admin-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 30px;
+    width: 100%;
+}
+
+.admin-profile .notification{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(215, 213, 213);
+    margin: auto 0 auto 0;
+}
+
