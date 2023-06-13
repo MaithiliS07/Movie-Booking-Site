@@ -2,7 +2,7 @@
 function toggle_function() {
     var x = document.getElementsByTagName("header");
     if (x.tagName === "header") {
-      x.tagName += " responsive";
+      x.className += " responsive";
     } else {
       x.tagName = "header";
     }
