@@ -21,7 +21,7 @@ header{
 }
 
 header div{
-    width: 100%;
+    width: 100% !important;
     max-width: 33% !important;
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -102,37 +102,6 @@ header .search{
 .dropdown .dropdown-menu{
     background: #252527;
     color: #fff;
-}
-
-header .toggle-menu{        /*------Toggle Menu-------*/
-    display: none;
-}
-
-@media screen and (max-width: 600px) {
-    .header div:not(:first-child){
-        display: none;
-    }
-
-    .header .toggle-menu i{
-        float: right;
-        display: block;
-    }
-}
-
-@media screen and (max-width: 600px){
-    .header.responsive{
-        position: relative;
-    }
-    .header.responsive .toggle-menu i{
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
-    .header.responsive div{
-        float: none;
-        display: block;
-        text-align: center;
-    }
 }
 
 /*----------Sidebar Section-----------*/
