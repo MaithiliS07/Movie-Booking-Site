@@ -105,3 +105,32 @@ header .search{
 }
 
 /*----------Sidebar Section-----------*/
+.sidebar{
+    background: #252527;
+    height: 100vw;
+    width: 200px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.sidebar ul li{
+    list-style: none;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 18px !important;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+.sidebar ul li i{
+    margin-right: 5px;
+    font-size: 17px;
+}
+
+.sidebar ul li:hover{
+    background: #5157F4;
+    color: #fff;
+    border-radius: 5px;
+}
