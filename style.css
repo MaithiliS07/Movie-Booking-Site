@@ -4,5 +4,23 @@
 }
 
 body{
-    background: #3f3f41;
+    background: #161515;
+}
+
+.main-section{
+    width: 100%;
+    max-width: 70%;
+    height: 600px;
+    background: #070808;
+    margin: 60px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-section{
+    width: 50%;
+    height: auto;
+    background: url(Images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
