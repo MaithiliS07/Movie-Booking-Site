@@ -119,18 +119,17 @@ header .search{
     list-style: none;
     margin-top: 30px;
     cursor: pointer;
-    font-size: 18px !important;
+    font-size: 17px !important;
     font-weight: 500;
     padding: 0 10px;
 }
 
 .sidebar ul li i{
     margin-right: 5px;
-    font-size: 17px;
 }
 
 .sidebar ul li:hover{
     background: #5157F4;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 4px;
 }
