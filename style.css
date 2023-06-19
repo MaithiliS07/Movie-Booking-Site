@@ -5,6 +5,7 @@
 
 body{
     background: #161515;
+    font-family: 'Lato', sans-serif;
 }
 
 .main-section{
@@ -24,3 +25,4 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
