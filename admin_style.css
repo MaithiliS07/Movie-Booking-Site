@@ -1,3 +1,8 @@
+:root{
+    --background-hover: #f84464;
+    --background-menus: #252527;
+}
+
 *{
     margin: 0;
     scroll-behavior: smooth;
@@ -17,7 +22,7 @@ header{
     max-width: 100vw;
     height: 70px;
     justify-content: center;
-    background-color: #252527;
+    background: var(--background-menus);
 }
 
 header div{
@@ -95,18 +100,18 @@ header .search{
     width: auto;
     height: auto;
     color: #fff;
-    background: #5157F4;
+    background: var(--background-hover);
     border-radius: 5px;
 }
 
 .dropdown .dropdown-menu{
-    background: #252527;
+    background: var(--background-menus);
     color: #fff;
 }
 
 /*----------Sidebar Section-----------*/
 .sidebar{
-    background: #252527;
+    background: var(--background-menus);
     height: 100vw;
     width: 200px;
     color: #fff;
@@ -129,7 +134,7 @@ header .search{
 }
 
 .sidebar ul li:hover{
-    background: #5157F4;
+    background: var(--background-hover);
     color: #fff;
     border-radius: 4px;
 }
