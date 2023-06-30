@@ -1,11 +1,11 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 body{
-    background: #161515;
-    font-family: 'Lato', sans-serif;
+    background: #161515 !important;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -25,4 +25,16 @@ body{
     bottom: 0;
     object-fit: cover;
     position: absolute;
+}
+
+.register-section{
+    padding: 100px 0 0 100px;
+    width: 100%;
+    max-width: 50%;
+    height: 100%;
+}
+
+.register-section h1{
+    font-size: 30px;
+    font-weight: bold;
 }
