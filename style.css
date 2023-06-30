@@ -6,25 +6,23 @@
 body{
     background: #161515;
     font-family: 'Lato', sans-serif;
-}
-
-.main-section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
-.div1 img{
+.image{
+    width: 100%;
+    max-width: 50%;
+    height: 100%;
+}
+
+.image img{
     width: 100%;
     max-width: 50%;
     height: 100%;
     top: 0;
     bottom: 0;
-    position: absolute;
     object-fit: cover;
-}
-
-h1{
-    margin-left: -150px;
+    position: absolute;
 }
