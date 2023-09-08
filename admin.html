@@ -21,50 +21,12 @@
 </head>
 <body>
     <!-------------------HEADER SECTION------------------>
-    <header>
-        <!----Logo---->
-        <div class="logo">
-            <a href="admin.html"><img src="Images/logo.png" width="150" height="40"></a>    
-        </div>
-
-        <!----Search Bar---->
-        <div class="search">
-            <i class='bx bx-search'></i>
-            <input type="search" name="search" placeholder="Search..." id="search-text" autocomplete="off">
-        </div>
-
-        <!----Admin Profile----->
-        <div class="admin-profile">
-             <a href="#" class="notification"><i class='bx bx-bell'></i></a>    <!----Notification---->
-
-            <div class="dropdown">
-                <button class="btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="Images/profile1.png" width="40" height="40">
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><a class="dropdown-item" href="#"><i class='bx bx-user-circle'></i>&nbsp;My Profile</a></li>
-                  <li><a class="dropdown-item" href="#"><i class='bx bx-cog' ></i>&nbsp;Settings</a></li>
-                  <li><a class="dropdown-item" href="#"><i class='bx bx-log-out-circle' ></i>&nbsp;Logout</a></li>
-                </ul>
-              </div>
-        </div>
-        
-    </header>
-
-    <!-------------------SideBar Section------------------>
-    <div class="sidebar">
-        <ul>
-            <li><button><i class='bx bxs-dashboard'></i>Dashboard</button></li>
-            <li><button><i class='bx bxs-book-content'></i>Bookings</button></li>
-            <li><button><i class='bx bxs-movie-play'></i>Movies</button></li>
-            <li><button><i class='bx bxs-home-alt-2'></i>Theaters</button></li>
-            <li><button><i class='bx bxs-user'></i>Admins</button></li>
-            <li><button><i class='bx bxs-help-circle' ></i>Help</button></li>
-            <li><button><i class='bx bxs-chat'></i>FAQ's</button></li>
-            <li><button>404 Page</button></li>
-        </ul>
-    </div>
-
+    <script type="text/javascript">
+        $(function (){
+        $("body").load("menus.html");
+       });
+       </script>
+    
     <!-------------------Dashboard Section---------------->
     <div class="dashboard">
         <div class="total-count">
